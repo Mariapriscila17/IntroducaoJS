@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora</title>
+<style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      background-color: #f0f2f5;
+
+      text-align: center;
+
+      padding: 50px;
+
+    }
+
+    h1 {
+
+      color: #333;
+
+    }
+
+    input {
+
+      padding: 10px;
+
+      width: 200px;
+
+      margin: 10px;
+
+      font-size: 16px;
+
+    }
+
+    button {
+
+      padding: 10px 20px;
+
+      margin: 5px;
+
+      font-size: 16px;
+
+      background-color: #4CAF50;
+
+      color: white;
+
+      border: none;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      transition: background-color 0.3s;
+
+    }
+
+    button:hover {
+
+      background-color: #45a049;
+
+    }
+
+    #resultado {
+
+      margin-top: 20px;
+
+      font-size: 18px;
+
+      font-weight: bold;
+
+      color: #333;
+
+    }
+</style>
+</head>
+<body>
+<h1>Calculadora</h1>
+<input type="number" id="num1" placeholder="número 1">
+<input type="number" id="num2" placeholder="número 2">
+<br><br>
+<button onclick="somar()">Somar</button>
+<button onclick="subtrair()">Subtrair</button>
+<button onclick="multiplicar()">Multiplicar</button>
+<button onclick="dividir()">Dividir</button>
+<p id="resultado"></p>
+<script src="scripts/calculadora.js"></script>
+</body>
+</html>
+ 
